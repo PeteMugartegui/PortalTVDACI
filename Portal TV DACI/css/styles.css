@@ -86,6 +86,12 @@ li{
 	height: 400px;
 	margin-top: 25px;
 }
+.calendario{
+	display: inline-block;
+	width: 90%;
+	text-align: center;
+	vertical-align: middle;
+}
 .imgcenter{
       display: block;
       margin-left: auto;
