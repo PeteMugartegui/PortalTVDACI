@@ -63,7 +63,7 @@ li>a:hover{
 	z-index: 0;
 }
 #contenedor{
-	max-width: 80%;
+	max-width: 85%;
 	max-height: 100%;
 	margin: 0 auto;
 }
@@ -149,8 +149,6 @@ li>a:hover{
 	text-decoration: none;
 }
 .noti-even{
-	border-style: solid;
-	border-width: 1px;
 	color: #000;
 	font-size: 2em;
 	font-family: 'Francois One', sans-serif;
@@ -177,6 +175,10 @@ li>a:hover{
 	font-family: 'Francois One', sans-serif;
 	text-align: center;
 	vertical-align: middle;
+}
+.tituloazul{
+	color: #07294d;
+	background-color: #FFC600;
 }
 .textopie{
 	text-align: center;

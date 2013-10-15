@@ -369,9 +369,12 @@ Example markup:
   .effeckt-caption img {
     transition: 500ms; }
   .effeckt-caption figcaption {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
     position: absolute;
     transition: 500ms;
-    width: 100%; }
+    width: 100%; 
+    z-index: 1;}
   .effeckt-caption[data-effeckt-type="quarter-appear"] figcaption {
     bottom: 0;
     left: 0;
