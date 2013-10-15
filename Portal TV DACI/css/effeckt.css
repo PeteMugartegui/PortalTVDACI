@@ -369,7 +369,7 @@ Example markup:
   .effeckt-caption img {
     transition: 500ms; }
   .effeckt-caption figcaption {
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.9);
     color: white;
     position: absolute;
     transition: 500ms;

@@ -4,7 +4,7 @@
 
 }
 body{
-	background-color: #FFF;
+	background-color: #bdc3c7;
 	font-family: 'Cabin Condensed', sans-serif;
 
 }
@@ -63,7 +63,7 @@ li>a:hover{
 	z-index: 0;
 }
 #contenedor{
-	max-width: 85%;
+	max-width: 70%;
 	max-height: 100%;
 	margin: 0 auto;
 }
@@ -72,6 +72,9 @@ li>a:hover{
 	color: #FFF;
 	margin-top: 10%;
 
+}
+#noticias{
+	max-height: 400px;
 }
 #mapa{
 	width: 100%;
@@ -85,6 +88,9 @@ li>a:hover{
 #superior{
 	display: inline-block;
 	text-align: center;
+}
+#recorrido-virtual{
+vertical-align: middle;
 }
 #rectangulo-azul{
 	background-color: #07294d;
@@ -118,6 +124,15 @@ li>a:hover{
 	width: 100%;
 	height: 110px;
 }
+.alin-altura{
+	display: inline-block;
+	margin-top: 20%;
+	margin-bottom: 20%;
+}
+.ajuste-imagen{
+	max-height: 100%;
+	max-width: 100%;
+}
 .cuadros{
 	background-color: #07294d;
 	width: 100%;
@@ -127,9 +142,13 @@ li>a:hover{
 .calendario{
 	display: inline-block;
 	font-family: 'Ubuntu', sans-serif;
+	font-size: 16px;
 	width: 90%;
 	text-align: center;
 	vertical-align: middle;
+}
+.centrar{
+	left: 25%;
 }
 .imgcenter{
       display: block;
@@ -144,14 +163,23 @@ li>a:hover{
 	max-width: 100%;
 	height: 150px;
 }
+.izq-align{
+	text-align: left;
+}
 .lista{
 	display: inline-block;
 	text-decoration: none;
+	vertical-align: bottom;
+	margin-left: 15px;
+}
+.linea-med{
+	border-bottom-style: solid;
+	border-bottom-color: #FFF; 
 }
 .noti-even{
 	color: #000;
 	font-size: 2em;
-	font-family: 'Francois One', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 	margin-top: 25px;
 	text-align: center;
 	width: 100%;
@@ -172,7 +200,7 @@ li>a:hover{
 	color: #FFF;
 	display: block;
 	font-size: 2em;
-	font-family: 'Francois One', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 	text-align: center;
 	vertical-align: middle;
 }

@@ -5,7 +5,7 @@
 	<link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
 	<link href=​"http:​/​/​fonts.googleapis.com/​css?family=Ubuntu:​300,400,500,700" rel=​"stylesheet" type=​"text/​css">​
 	<link href='http://fonts.googleapis.com/css?family=Cabin+Condensed' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Francois+One' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<link rel="stylesheet" type="text/css" href="css/effeckt.css">
 	<link rel="stylesheet" type="text/css" href="css/effeckt.autoprefixed.css">
@@ -51,7 +51,7 @@
 			<div class="span12" id="contmapa">
 				<div id="mapa">
 					<div class="span4"id="cajatexto">
-						<h2 class="titulo">RECORRIDO <br> VIRTUAL</h2>
+						<h2 class="titulo" id="recorrido-virtual">RECORRIDO <br> VIRTUAL</h2>
 						<div class="span4" id="rectangulo-amarillo">
 							<i class="icon-chevron-right"></i>
 						</div>
@@ -65,31 +65,57 @@
 		<div class="row-fluid" id="tercero">
 			<div class="span12">
 				<div class="span4 cuadros" id="cont-portal">
-					<figure class="mitad effeckt-caption" data-effeckt-type="cover-fade">
-	    				<div id="portal"><h2 class="titulo"> Portal </h2></div>
+					<figure class="mitad effeckt-caption linea-med" data-effeckt-type="cover-slide-top">
+	    				<div id="portal"><h2 class="titulo alin-altura"> Portal </h2></div>
 	    				<figcaption>
 	      					<div class="effeckt-figcaption-wrap">
-	        					<h3>Cover Fade</h3>
-	       				 		<p>Lorem ipsum dolar.</p>
+	        					<h3>Portal</h3>
+	       				 		<p>Entra al portal de la DES DACI.</p>
+	       				 		<p><a href="#"><strong>Entra ahora>> </strong> </a></p>
 	      					</div>
 	    				</figcaption>
 	  				</figure>
-					<div clasS="mitad" id="agenda"><h2 class="titulo"> Agenda </h2></div>
+	  				<figure class="mitad effeckt-caption" data-effeckt-type="cover-slide-top">
+						<div class="mitad" id="agenda"><h2 class="titulo alin-altura"> Agenda </h2></div>
+						<figcaption>
+	      					<div class="effeckt-figcaption-wrap">
+	        					<h3>Agenda</h3>
+	       				 		<p>Checa la agenda de actividades próximas.</p>
+	       				 		<p><a href="#"><strong>Entra ahora>> </strong></a></p>
+	      					</div>
+	    				</figcaption>
+	    			</figure>
 				</div>
-				<div class="span4 cuadros" id="campus-virtual">
-					<h2 class="titulo"> Campus Virtual </h2>
-					<img class="imgcenter" src="img/virtual.png" /> 
-				</div>
+				<figure class="effeckt-caption span4" data-effeckt-type="half-slide">
+				    <div class="cuadros" id="campus-virtual">
+						<h2 class="titulo"> Campus Virtual </h2>
+						<img class="imgcenter" style="height:auto; width:auto; margin: auto; max-width:180px; max-height:180px;" src="img/virtual.png" /> 
+					</div>
+				    <figcaption>
+				      <div class="effeckt-figcaption-wrap">
+				        <h3>Half Slide</h3>
+				        <p>Lorem ipsum dolar.</p>
+				      </div>
+				    </figcaption>
+  				</figure>
 				<div class="span4 cuadros" id="chat">
 						<div class="span6">
 							<h2 class="titulo"> Chat</h2>
-							<img class="imgchat" src="img/perfil.png" />
+							<figure class="effeckt-caption centrar" data-effeckt-type="revolving-door-right">
+							    <img class="imgchat" style="height:auto; width:auto; margin: auto; max-width:100px; max-height:100px;" src="img/perfil.png" />
+							    <figcaption>
+							      <div class="effeckt-figcaption-wrap">
+							        <h3>Jperez</h3>
+							        <p>Disponible</p>
+							      </div>
+							    </figcaption>
+  							</figure>
 						</div>
 						<div class="span6">
-							<p class="titulo">Conectados:</p>
-							<p class="parrafo" >Jperez</p>
-							<p class="parrafo">Fgonzale</p>
-							<p class="parrafo">Ddominguez</p>
+							<h2 class="titulo izq-align" style="margin-top: 5px;">Conectados:</h2>
+							<p class="parrafo izq-align" >Jperez</p>
+							<p class="parrafo izq-align">Fgonzale</p>
+							<p class="parrafo izq-align">Ddominguez</p>
 						</div>				
 				</div>
 			</div>
@@ -97,34 +123,29 @@
 		<div class="row-fluid" id="noticias-eventos">
 			<div class="span12">
 				<div class="span6 noti-even" id="noticias"><h2 class="tituloazul">Noticias</h2><br>
-					<div id="myCarousel" class="carousel slide">
-	  					<ol class="carousel-indicators">
-	    					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-	    					<li data-target="#myCarousel" data-slide-to="1"></li>
-	    					<li data-target="#myCarousel" data-slide-to="2"></li>
-	  					</ol>
+					<div id="myCarousel alin-altura" class="carousel slide">
 	  					<!-- Carousel items -->
 	  					<div class="carousel-inner">
 	    					<div class="active item">…</div>
-	    					<div class="item"><img src="img/noti01.jpg">
+	    					<div class="item"><img class="ajuste-imagen" src="img/noti01.jpg" style="display: inline-block; text-align: center">
 	    						<div class="carousel-caption">
 	    							<h4>El CTI gana premio</h4>
-	    							<p>La facultad de ciencias de la información ha ganado el premioo por mejor facultad</p>
+	    							<p>La facultad de ciencias de la información ha ganado el premio por mejor facultad</p>
 	    						</div>
 	    					</div>
-	    					<div class="item"><img src="img/noti02.jpg">
+	    					<div class="item"><img class="ajuste-imagen" src="img/noti02.jpg" style="text-align: center">
 	    						<div class="carousel-caption">
 	    							<h4>Llegan Alumnos extranjeros</h4>
 	    							<p>La universidad recibió a alumnos de escuelas extranjeras.</p>
 	    						</div>
 	    					</div>
-	    					<div class="item"><img src="img/noti03.jpg">
+	    					<div class="item"><img class="ajuste-imagen" src="img/noti03.jpg" style=" text-align: center">
 	    						<div class="carousel-caption">
 	    							<h4>Llegan Alumnos extranjeros</h4>
 	    							<p>La universidad recibió a alumnos de escuelas extranjeras.</p>
 	    						</div>
 	    					</div>
-	    					<div class="item"><img src="img/noti04.jpg">
+	    					<div class="item"><img class="ajuste-imagen" src="img/noti04.jpg" style=" text-align: center">
 	    						<div class="carousel-caption">
 	    							<h4>Llegan Alumnos extranjeros</h4>
 	    							<p>La universidad recibió a alumnos de escuelas extranjeras.</p>
