@@ -86,6 +86,11 @@ li>a:hover{
 	position: relative;
 	z-index: 1;
 }
+#monitor{
+	margin: auto; 
+	width:180px; 
+	height:180px;
+}
 #portal{
 	z-index: 0;
 }
@@ -98,8 +103,8 @@ vertical-align: middle;
 }
 #rectangulo-azul{
 	background-color: #07294d;
-	width: 150px;
-	height: 50px;
+	max-width: 150px;
+	max-height: 50px;
 	position: relative;
 	margin-top: 100px;
 	margin-left: 0;
@@ -140,7 +145,9 @@ vertical-align: middle;
 .cuadros{
 	background-color: #07294d;
 	width: 100%;
-	height: 400px;
+	height: 300px;
+	max-width: 100%;
+	max-height: 100%;
 	margin-top: 25px;
 }
 .calendario{
