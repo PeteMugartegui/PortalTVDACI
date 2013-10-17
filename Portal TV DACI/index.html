@@ -14,13 +14,13 @@
 	<script src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
 	<script type="text/javascript" src="js/effeckt.js"></script>
-	<script type="text/javascript">
-		$(document).ready(function(){
-			$('.carousel').carousel({
-				interval: 4000
-			});
-		});
-	</script>
+	<script>
+        $(document).ready(function(){
+            $('.carousel').carousel({
+                interval: 3000
+            });
+        });
+    </script>
 	<!--Datepicker-->
 	<link rel="stylesheet" type="text/css" href="calendar/calendar.css">
 	<script type="text/javascript" src="calendar/calendar.js"></script>
@@ -28,24 +28,22 @@
 <body>
 	<div id="contenedor">
 		<div class="row-fluid" id="primero">
-			<div class="span12">
-					<nav id="barra">
-						<ul>
-							<li class="lista"><a href="#">Acerca de</a></li>
-							<li class="lista"><a href="#">Portal</a></li>
-							<li class="lista"><a href="#">Campus</a></li>
-							<li class="lista"><a href="#">Cursos</a></li>
-							<li class="lista"><a href="#">Recursos</a></li>
-							<li class="lista"><a href="#">Ayuda</a></li>
-						</ul>
-					<form class="form-search" id="buscador">
-					  <div class="input-append">
-					    <input type="text" class="span6 search-query">
-					    <button type="submit" class="btn">Search</button>
-					  </div>
-					</form>
-				</nav>
-			</div>
+				<div class="span12">
+		
+						<nav id="barra">
+							<ul>
+								<li class="lista"><a href="#">Acerca de</a></li>
+								<li class="lista"><a href="#">Portal</a></li>
+								<li class="lista"><a href="#">Campus</a></li>
+								<li class="lista"><a href="#">Cursos</a></li>
+								<li class="lista"><a href="#">Recursos</a></li>
+								<li class="lista"><a href="#">Ayuda</a></li>
+							</ul>
+							<div id="buscador">
+              						<input class="todo-search-field" type="search" value="" placeholder="Search">
+            				</div>
+						</nav>
+				</div>
 		</div>
 		<div id="virtual" class="row-fluid">
 			<div class="span12" id="contmapa">
