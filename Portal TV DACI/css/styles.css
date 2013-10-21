@@ -4,13 +4,12 @@
 
 }
 body{
-	background-color: #bdc3c7;
+	background-color: #eee;
 	font-family: 'Cabin Condensed', sans-serif;
 
 }
 li{
 	padding-left: 35px;
-	font-size: 18px;
 	/*preparando la trancision*/
 	-webkit-transition:color .5s ease-out;
 	-moz-transition:color .5s ease-out;
@@ -20,7 +19,7 @@ li{
 }
 ul{
 	display: inline-block;
-	text-align: center;
+	text-align: left;
 	line-height: 35px;
 }
 a{
@@ -36,26 +35,22 @@ li>a:hover{
 	-ms-transition:color .5s ease;
 	transition:color .5s ease;
 }
-h2{
-	margin: 0;
-}
 /************** Identificadores***********************/
 #barra{
 	color: #FFF;
 	display: inline-block;
 	width: 100%;
-	height: 70px;
+	height: 60px;
+	position: fixed;
 	background-color: #07294d;
 	text-align: center;
+	top: 0px;
 	font-size: 16px;
+	z-index: 999999;
 }
 #buscador{
 	color: #FFF;
 	display: inline-block;
-	background-color: #07294d; 
-	text-align: right;
-	width: 100%;
-	height: 70px;
 
 }
 #cajatexto{
@@ -69,7 +64,7 @@ h2{
 	max-width: 100%;
 	max-height: 200px;
 	position: absolute;
-	z-index: 0;
+	z-index: 1;
 }
 #contenedor{
 	max-width: 70%;
@@ -81,6 +76,11 @@ h2{
 	color: #FFF;
 	margin-top: 10%;
 
+}
+#flecha{
+	display: inline-block;
+	text-align: center;
+	margin-top: 20%;
 }
 #noticias{
 	max-height: 400px;
@@ -120,9 +120,10 @@ vertical-align: middle;
 	text-align: center;
 	width: 100px;
 	height: 50px;
+	max-height: 50px;
 	position: relative;
 	margin-left: 0;
-	margin-top: 100px;
+	margin-top: 95px;
 	z-index: 0;
 }
 #virtual{
@@ -157,8 +158,9 @@ vertical-align: middle;
 }
 .calendario{
 	display: inline-block;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
+	margin-top: 20%;
 	width: 90%;
 	text-align: center;
 	vertical-align: middle;
@@ -173,14 +175,11 @@ vertical-align: middle;
       border:none;
 }
 .imgchat{
-	height:auto; 
-	width:auto; 
-	margin: auto; 
-	max-width:100px; 
-	max-height:100px;
 	display: block;
 	margin-bottom: 20px;
 	margin-right: 20px;
+	max-width: 100%;
+	height: 150px;
 }
 .izq-align{
 	text-align: left;
@@ -198,11 +197,26 @@ vertical-align: middle;
 .noti-even{
 	color: #000;
 	font-size: 2em;
-	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	margin-top: 25px;
 	text-align: center;
 	width: 100%;
 	height: 600px;
+}
+.metro-md{
+width: 100%;
+height: 150px;
+background-color: blue;
+}
+.metro-ch{
+width:50%;
+height: 150px;
+background-color: blue;
+}
+.metro-gd{
+	width: 100%;
+	height: 450px;
+	background-color: blue;
 }
 .mitad{
 	width: 100%;
@@ -217,8 +231,9 @@ vertical-align: middle;
 }
 .titulo{
 	color: #FFF;
-	font-size: 1.8em;
-	font-family: 'Ubuntu', sans-serif;
+	display: block;
+	font-size: 2em;
+	font-family: 'Open Sans', sans-serif;
 	text-align: center;
 	vertical-align: middle;
 }
@@ -238,7 +253,7 @@ vertical-align: middle;
 /****************************Buscador diseño plano ******************************/
 .todo-search {
   position: relative;
-  background: #fff;
+  background: #07294d;
   background-size: 16px 16px;
   border-radius: 6px 6px 0 0;
   color: #34495e;
@@ -262,7 +277,9 @@ input.todo-search-field {
   font-weight: 700;
   margin: 0;
   line-height: 23px;
-
+  border-color: #fff;
+  border-style: solid;
+  border-width: 1px;
   text-indent: 0;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
