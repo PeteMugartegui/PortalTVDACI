@@ -1238,7 +1238,7 @@ Example markup:
   opacity: 1; }
 
 .effeckt-show.blur ~ .md-overlay {
-  background: rgba(180, 46, 32, 0.5); }
+  background: rgba(80, 46, 32, 0.5); }
 
 .effeckt-show.blur ~ [data-effeckt-page] {
   filter: blur(3px); }

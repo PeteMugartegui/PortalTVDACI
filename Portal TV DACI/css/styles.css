@@ -25,6 +25,10 @@ ul{
 a{
 	color: #fff;
 	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
 }
 li>a:hover{
 	color: #FFC600;
@@ -96,6 +100,10 @@ li>a:hover{
 	margin: auto; 
 	width:180px; 
 	height:180px;
+}
+#metro-container{
+	overflow-x: scroll;
+	overflow-y: hidden;
 }
 #portal{
 	z-index: 0;
@@ -210,12 +218,22 @@ vertical-align: middle;
 	width: 100%;
 	height: 150px;
 	line-height: 100%;
+	-webkit-transition: background-color .4s ease-out;
+    -moz-transition: background-color .4s ease-out;
+    -o-transition: background-color .4s ease-out;
+    -ms-transition: background-color .4s ease-out;
+    transition: background-color .4s ease-out;
 }
 .metro-ch{
 width:50%;
 height: 150px;
 line-height: 100%;
 position: relative;
+-webkit-transition: background-color .4s ease-out;
+    -moz-transition: background-color .4s ease-out;
+    -o-transition: background-color .4s ease-out;
+    -ms-transition: background-color .4s ease-out;
+    transition: background-color .4s ease-out;
 }
 .metro-gd{
 	width: 100%;
@@ -230,7 +248,20 @@ position: relative;
 	height: 50%;
 }
 a.metro-md :hover{
-	border: 4px solid black;
+	background-color: rgba(0, 0, 0, 0.7);
+	-webkit-transition: background-color .4s ease;
+    -moz-transition: background-color .4s ease;
+    -o-transition: background-color .4s ease;
+    -ms-transition: background-color .4s ease;
+    transition: background-color .4s ease;
+}
+a.metro-ch:hover{
+	background-color: rgba(0, 0, 0, 0.7);
+	-webkit-transition: background-color .4s ease;
+    -moz-transition: background-color .4s ease;
+    -o-transition: background-color .4s ease;
+    -ms-transition: background-color .4s ease;
+    transition: background-color .4s ease;
 }
 .pie{
 	background-color: #FFC600;
