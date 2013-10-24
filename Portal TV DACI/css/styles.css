@@ -295,6 +295,17 @@ a.metro-ch:hover{
 	color: #FFF;
 	font-family: 'Cabin Condensed', sans-serif;
 }
+.panel{
+	background-color: rgba(0,0,0,0.5);
+	width: 700px;
+	height: 300px;
+	display: inline-block;
+	margin-left:900px;
+	margin-top: 500px; 
+	position: absolute;
+	text-align: center;
+	z-index: 1;
+}
 
 /****************************Buscador diseño plano ******************************/
 .todo-search {
@@ -384,4 +395,7 @@ input.todo-search-field.placeholder {
 }
 .flat-orange{
 	background-color: #f39c12;
+}
+.flat-peter{
+	background-color: #3498db;
 }

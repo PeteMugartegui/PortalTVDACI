@@ -1,251 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<style type="text/css">
-/* ================================================================ 
-This copyright notice must be kept untouched in the stylesheet at 
-all times.
-
-The original version of this stylesheet and the associated (x)html
-is available at http://www.cssplay.co.uk/menus/cssplay-round-and-round.html
-Copyright (c) Stu Nicholls. All rights reserved.
-This stylesheet and the associated (x)html may be modified in any 
-way to fit your requirements.
-=================================================================== */
-.holder {position:relative; z-index:100; width:32px; height:32px; margin:100px auto;}
-ul.circles {padding:0; margin:0; list-style:none; width:32px; height:32px; position:absolute; left:-30px; top:-30px; background: url(cssplay46/circle.png) no-repeat center center; border:30px solid transparent;}
-ul.circles > li {width:32px; height:32px; position:absolute; left:0; top:0; 
--moz-transition: -moz-transform 0.5s ease-in-out;
--ms-transition: -ms-transform 0.5s ease-in-out;
--o-transition: -o-transform 0.5s ease-in-out;
--webkit-transition: -webkit-transform 0.5s ease-in-out;
-transition: transform 0.5s ease-in-out;
-}
-
-.holder a {display:block; width:32px; height:32px; position:absolute; left:0; top:0; line-height:32px; text-align:center; text-decoration:none;}
-.holder a img {border:0;}
-
-ul.circles:hover {border:150px solid transparent; left:-150px; top:-150px;}
-
-ul.circles:hover li.p1 {
--moz-transform: rotate(0deg) translatey(100px);
--ms-transform: rotate(0deg) translatey(100px);
--o-transform: rotate(0deg) translatey(100px);
--webkit-transform: rotate(0deg) translatey(100px);
-transform: rotate(0deg) translatey(100px);
-}
-ul.circles:hover li.p1 a {
--moz-transform: rotate(0deg);
--ms-transform: rotate(0deg);
--o-transform: rotate(0deg);
--webkit-transform: rotate(0deg);
-transform: rotate(0deg);
-}
-ul.circles:hover li.p2 {
--moz-transform: rotate(60deg) translatey(100px);
--ms-transform: rotate(60deg) translatey(100px);
--o-transform: rotate(60deg) translatey(100px);
--webkit-transform: rotate(60deg) translatey(100px);
-transform: rotate(60deg) translatey(100px);
-}
-ul.circles:hover li.p2 a {
--moz-transform: rotate(-60deg);
--ms-transform: rotate(-60deg);
--o-transform: rotate(-60deg);
--webkit-transform: rotate(-60deg);
-transform: rotate(-60deg);
-}
-ul.circles:hover li.p3 {
--moz-transform: rotate(120deg) translatey(100px);
--ms-transform: rotate(120deg) translatey(100px);
--o-transform: rotate(120deg) translatey(100px);
--webkit-transform: rotate(120deg) translatey(100px);
-transform: rotate(120deg) translatey(100px);
-}
-ul.circles:hover li.p3 a {
--moz-transform: rotate(-120deg);
--ms-transform: rotate(-120deg);
--o-transform: rotate(-120deg);
--webkit-transform: rotate(-120deg);
-transform: rotate(-120deg);
-}
-ul.circles:hover li.p4 {
--moz-transform: rotate(180deg) translatey(100px);
--ms-transform: rotate(180deg) translatey(100px);
--o-transform: rotate(180deg) translatey(100px);
--webkit-transform: rotate(180deg) translatey(100px);
-transform: rotate(180deg) translatey(100px);
-}
-ul.circles:hover li.p4 a {
--moz-transform: rotate(-180deg);
--ms-transform: rotate(-180deg);
--o-transform: rotate(-180deg);
--webkit-transform: rotate(-180deg);
-transform: rotate(-180deg);
-}
-ul.circles:hover li.p5 {
--moz-transform: rotate(240deg) translatey(100px);
--ms-transform: rotate(240deg) translatey(100px);
--o-transform: rotate(240deg) translatey(100px);
--webkit-transform: rotate(240deg) translatey(100px);
-transform: rotate(240deg) translatey(100px);
-}
-ul.circles:hover li.p5 a {
--moz-transform: rotate(-240deg);
--ms-transform: rotate(-240deg);
--o-transform: rotate(-240deg);
--webkit-transform: rotate(-240deg);
-transform: rotate(-240deg);
-}
-ul.circles:hover li.p6 {
--moz-transform: rotate(300deg) translatey(100px);
--ms-transform: rotate(300deg) translatey(100px);
--o-transform: rotate(300deg) translatey(100px);
--webkit-transform: rotate(300deg) translatey(100px);
-transform: rotate(300deg) translatey(100px);
-}
-ul.circles:hover li.p6 a {
--moz-transform: rotate(-300deg);
--ms-transform: rotate(-300deg);
--o-transform: rotate(-300deg);
--webkit-transform: rotate(-300deg);
-transform: rotate(-300deg);
-}
-
-ul.subcircles {padding:0; margin:0; list-style:none; width:32px; height:32px; position:absolute; left:0; top:0; z-index:-1; opacity:0;
--moz-transition: opacity 0s linear 1s;
--ms-transition: opacity 0s linear 1s;
--o-transition: opacity 0s linear 1s;
--webkit-transition: opacity 0s linear 1s;
-transition: opacity 0s linear 1s;
-}
-ul.subcircles li {width:32px; height:32px; position:absolute; left:0; top:0; z-index:-1;
--moz-transition: -moz-transform 0.5s ease-in-out 0.5s;
--ms-transition: -ms-transform 0.5s ease-in-out 0.5s;
--o-transition: -o-transform 0.5s ease-in-out 0.5s;
--webkit-transition: -webkit-transform 0.5s ease-in-out 0.5s;
-transition: transform 0.5s ease-in-out 0.5s;
-}
-ul.circles > li:hover {border:50px solid transparent; margin-left:-50px; margin-top:-50px;}
-
-ul.circles > li:hover ul {opacity:1;
--moz-transition: opacity 0s linear 0.5s;
--ms-transition: opacity 0s linear 0.5s;
--o-transition: opacity 0s linear 0.5s;
--webkit-transition: opacity 0s linear 0.5s;
-transition: opacity 0s linear 0.5s;
-}
-
-ul.circles li:hover ul li.s1 {
--moz-transform: rotate(0deg) translatey(50px);
--ms-transform: rotate(0deg) translatey(50px);
--o-transform: rotate(0deg) translatey(50px);
--webkit-transform: rotate(0deg) translatey(50px);
-transform: rotate(0deg) translatey(50px);
-}
-ul.circles li ul li.s1 a img {
--moz-transform: rotate(0deg);
--ms-transform: rotate(0deg);
--o-transform: rotate(0deg);
--webkit-transform: rotate(0deg);
-transform: rotate(0deg);
-}
-ul.circles li:hover ul li.s2 {
--moz-transform: rotate(60deg) translatey(50px);
--ms-transform: rotate(60deg) translatey(50px);
--o-transform: rotate(60deg) translatey(50px);
--webkit-transform: rotate(60deg) translatey(50px);
-transform: rotate(60deg) translatey(50px);
-}
-ul.circles li ul li.s2 a img {
--moz-transform: rotate(-60deg);
--ms-transform: rotate(-60deg);
--o-transform: rotate(-60deg);
--webkit-transform: rotate(-60deg);
-transform: rotate(-60deg);
-}
-ul.circles li:hover ul li.s3 {
--moz-transform: rotate(120deg) translatey(50px);
--ms-transform: rotate(120deg) translatey(50px);
--o-transform: rotate(120deg) translatey(50px);
--webkit-transform: rotate(120deg) translatey(50px);
-transform: rotate(120deg) translatey(50px);
-}
-ul.circles li ul li.s3 a img {
--moz-transform: rotate(-120deg);
--ms-transform: rotate(-120deg);
--o-transform: rotate(-120deg);
--webkit-transform: rotate(-120deg);
-transform: rotate(-120deg);
-}
-ul.circles li:hover ul li.s4 {
--moz-transform: rotate(180deg) translatey(50px);
--ms-transform: rotate(180deg) translatey(50px);
--o-transform: rotate(180deg) translatey(50px);
--webkit-transform: rotate(180deg) translatey(50px);
-transform: rotate(180deg) translatey(50px);
-}
-ul.circles li ul li.s4 a img {
--moz-transform: rotate(-180deg);
--ms-transform: rotate(-180deg);
--o-transform: rotate(-180deg);
--webkit-transform: rotate(-180deg);
-transform: rotate(-180deg);
-}
-ul.circles li:hover ul li.s5 {
--moz-transform: rotate(240deg) translatey(50px);
--ms-transform: rotate(240deg) translatey(50px);
--o-transform: rotate(240deg) translatey(50px);
--webkit-transform: rotate(240deg) translatey(50px);
-transform: rotate(240deg) translatey(50px);
-}
-ul.circles li ul li.s5 a img {
--moz-transform: rotate(-240deg);
--ms-transform: rotate(-240deg);
--o-transform: rotate(-240deg);
--webkit-transform: rotate(-240deg);
-transform: rotate(-240deg);
-}
-ul.circles li:hover ul li.s6 {
--moz-transform: rotate(300deg) translatey(50px);
--ms-transform: rotate(300deg) translatey(50px);
--o-transform: rotate(300deg) translatey(50px);
--webkit-transform: rotate(300deg) translatey(50px);
-transform: rotate(300deg) translatey(50px);
-}
-ul.circles li ul li.s6 a img {
--moz-transform: rotate(-300deg);
--ms-transform: rotate(-300deg);
--o-transform: rotate(-300deg);
--webkit-transform: rotate(-300deg);
-transform: rotate(-300deg);
-}
-/***********************************************************HEXAGONO *******************************************************************************/
-.hexagon {
-	 position: relative;
-	 overflow: hidden;
-  /* add slash at the end of line to see the rhombus *
-  outline: solid 1px red;/**/
-  width: 70px; height: 70px;
-  -webkit-transform:rotate(-30deg) skewX(30deg) scaleY(.866);
-  transform: rotate(-30deg) skewX(30deg) scaleY(.866);
-}
-.hexagon:before {
-	 position: absolute;
-	 right: 6.7%; bottom: 0; left: 6.7%; top: 0;
-	 -webkit-transform: scaleY(1.155) skewX(-30deg) rotate(30deg);
-	 transform: scaleY(1.155) skewX(-30deg) rotate(30deg);
-	 background-color: #f39c12;
-  color: white;
-  font: 1em/10 Verdana, sans-serif;
-  text-align: center;
-  text-shadow: 0 0 .5em black;
-  content: 'HEXAGON';
-}
-</style>
+	<link rel="stylesheet" type="text/css" href="css/menu.css">
 </head>
 <body>
-	<div class="holder">
+<div class="contenedor">
+	<div class="holder" style="z-index:0;">
+		<div class="wrapper" style="z-index:2;">
+		<a href="#zoom1"><img id="zoom1" src="img/noti01.jpg" alt="" /></a>
+	</div>
 <ul class="circles">
 	<li class="p1">
 		<a href="#url">
@@ -261,44 +24,12 @@ transform: rotate(-300deg);
 		</ul>
 	</li>
 	<li class="p2"><a href="#url"><div class="hexagon"></div></a>
-		<ul class="subcircles">
-			<li class="s1"><a href="#url"><img src="cssplay46/Cart2.png" alt="" /></a></li>
-			<li class="s2"><a href="#url"><img src="cssplay46/Currency Euro.png" alt="" /></a></li>
-			<li class="s3"><a href="#url"><img src="cssplay46/Currency Dollar.png" alt="" /></a></li>
-			<li class="s4"><a href="#url"><img src="cssplay46/Currency Pound.png" alt="" /></a></li>
-			<li class="s5"><a href="#url"><img src="cssplay46/Poll.png" alt="" /></a></li>
-			<li class="s6"><a href="#url"><img src="cssplay46/Stats2.png" alt="" /></a></li>
-		</ul>
 	</li>
 	<li class="p3"><a href="#url"><div class="hexagon"></div></a>
-		<ul class="subcircles">
-			<li class="s1"><a href="#url"><img src="cssplay46/Mail.png" alt="" /></a></li>
-			<li class="s2"><a href="#url"><img src="cssplay46/Email.png" alt="" /></a></li>
-			<li class="s3"><a href="#url"><img src="cssplay46/Mobile.png" alt="" /></a></li>
-			<li class="s4"><a href="#url"><img src="cssplay46/Phone.png" alt="" /></a></li>
-			<li class="s5"><a href="#url"><img src="cssplay46/User.png" alt="" /></a></li>
-			<li class="s6"><a href="#url"><img src="cssplay46/Fbook.png" alt="" /></a></li>
-		</ul>
 	</li>
 	<li class="p4"><a href="#url"><div class="hexagon"></div></a>
-		<ul class="subcircles">
-			<li class="s1"><a href="#url"><img src="cssplay46/Cd.png" alt="" /></a></li>
-			<li class="s2"><a href="#url"><img src="cssplay46/Podcast.png" alt="" /></a></li>
-			<li class="s3"><a href="#url"><img src="cssplay46/Movie.png" alt="" /></a></li>
-			<li class="s4"><a href="#url"><img src="cssplay46/Game.png" alt="" /></a></li>
-			<li class="s5"><a href="#url"><img src="cssplay46/Computer.png" alt="" /></a></li>
-			<li class="s6"><a href="#url"><img src="cssplay46/Discuss.png" alt="" /></a></li>
-		</ul>
 	</li>
 	<li class="p5"><a href="#url"><div class="hexagon"></div></a>
-		<ul class="subcircles">
-			<li class="s1"><a href="#url"><img src="cssplay46/Sound Minus.png" alt="" /></a></li>
-			<li class="s2"><a href="#url"><img src="cssplay46/Sound Plus.png" alt="" /></a></li>
-			<li class="s3"><a href="#url"><img src="cssplay46/Sound Off.png" alt="" /></a></li>
-			<li class="s4"><a href="#url"><img src="cssplay46/Sound On.png" alt="" /></a></li>
-			<li class="s5"><a href="#url"><img src="cssplay46/Standby.png" alt="" /></a></li>
-			<li class="s6"><a href="#url"><img src="cssplay46/Music2.png" alt="" /></a></li>
-		</ul>
 	</li>
 	<li class="p6"><a href="#url"><div class="hexagon"></div></a>
 		<ul class="subcircles">
@@ -311,6 +42,7 @@ transform: rotate(-300deg);
 		</ul>
 	</li>
 </ul>
+</div>
 </div>
 </body>
 </html>
