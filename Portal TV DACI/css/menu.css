@@ -8,8 +8,8 @@ Copyright (c) Stu Nicholls. All rights reserved.
 This stylesheet and the associated (x)html may be modified in any 
 way to fit your requirements.
 =================================================================== */
-.holder {position:relative; z-index:100; width:32px; height:32px; margin:100px auto;}
-ul.circles {padding:0; margin:0; list-style:none; width:32px; height:32px; position:absolute; left:-30px; top:-30px; background: url(cssplay46/circle.png) no-repeat center center; border:30px solid transparent;}
+.holder {position:relative; z-index:100; width:80px; height:80px; margin:100px auto;}
+ul.circles {padding:0; margin:0; list-style:none; width:100px; height:100px; position:absolute; left:-30px; top:-30px; background: url(cssplay46/circle.png) no-repeat center center; border:30px solid transparent;}
 ul.circles > li {width:32px; height:32px; position:absolute; left:0; top:0; 
 -moz-transition: -moz-transform 0.5s ease-in-out;
 -ms-transition: -ms-transform 0.5s ease-in-out;
@@ -18,7 +18,7 @@ ul.circles > li {width:32px; height:32px; position:absolute; left:0; top:0;
 transition: transform 0.5s ease-in-out;
 }
 
-.holder a {display:block; width:32px; height:32px; position:absolute; left:0; top:0; line-height:32px; text-align:center; text-decoration:none;}
+.holder a {display:block; width:80px; height:80px; position:absolute; left:0; top:0; line-height:32px; text-align:center; text-decoration:none;}
 .holder a img {border:0;}
 
 ul.circles:hover {border:150px solid transparent; left:-150px; top:-150px;}
