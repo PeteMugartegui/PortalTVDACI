@@ -233,12 +233,32 @@ transform: rotate(-300deg);
 	 transform: scaleY(1.155) skewX(-30deg) rotate(30deg);
 	 background-color: #f39c12;
   color: white;
-  font: 1em/10 Verdana, sans-serif;
+  font: 10px Verdana, sans-serif;
   text-align: center;
   text-shadow: 0 0 .5em black;
   content: '';
 }
-
+.cubiculos{
+  position: relative;
+   overflow: hidden;
+  /* add slash at the end of line to see the rhombus *
+  outline: solid 1px red;/**/
+  width: 70px; height: 70px;
+  -webkit-transform:rotate(-30deg) skewX(5deg) scaleY(.866);
+  transform: rotate(-30deg) skewX(30deg) scaleY(.866);
+}
+.cubiculos:before{
+  position: absolute;
+   right: 6.7%; bottom: 0; left: 6.7%; top: 0;
+   -webkit-transform: scaleY(1.155) skewX(-30deg) rotate(30deg);
+   transform: scaleY(1.155) skewX(-30deg) rotate(30deg);
+   background-color: #f39c12;
+  color: white;
+  font: 8px Verdana, sans-serif;
+  text-align: center;
+  text-shadow: 0 0 .5em black;
+  content: 'p.cubi';
+}
 /************************************************* Tamaño Imagen Click **********************************************************************/
 img{
 		display: inline-block;

@@ -46,7 +46,7 @@ li>a:hover{
 	width: 100%;
 	height: 60px;
 	position: fixed;
-	background-color: #07294d;
+	background-color: #0c7fcf;
 	text-align: center;
 	top: 0px;
 	font-size: 16px;
@@ -58,7 +58,7 @@ li>a:hover{
 
 }
 #cajatexto{
-	background-color: #07294d; 
+	background-color: #0c7fcf; 
 	display: block;
 	float: left;
 	height: 200px;
@@ -75,7 +75,17 @@ li>a:hover{
 	max-height: 100%;
 	margin: 0 auto;
 }
-
+#divisor-cti {
+background: url(../img/divisorcti.png);
+background-repeat: no-repeat;
+background-position: 50% 0;
+background-attachment: fixed;
+background-size: cover;
+margin-left: 0;
+width: 100%;
+height: 300px;
+z-index: 3;
+}
 #entrar{
 	text-align: center;
 	color: #FFF;
@@ -116,7 +126,7 @@ li>a:hover{
 vertical-align: middle;
 }
 #rectangulo-azul{
-	background-color: #07294d;
+	background-color: #0c7fcf;
 	max-width: 150px;
 	max-height: 50px;
 	position: relative;
@@ -125,7 +135,7 @@ vertical-align: middle;
 	z-index: 0;
 }
 #rectangulo-amarillo{
-	background-color: #FFC600;
+	background-color: rgb(255, 221, 0);
 	text-align: center;
 	width: 100px;
 	height: 50px;
@@ -157,8 +167,15 @@ vertical-align: middle;
 	max-height: 100%;
 	max-width: 100%;
 }
+.black-opacity{
+	background-color: rgba(0,0,0,0.5);
+	z-index: 2;
+	width: 100%;
+	height: 300px;
+
+}
 .cuadros{
-	background-color: #07294d;
+	background-color: #0c7fcf;
 	width: 100%;
 	height: 300px;
 	max-width: 100%;
@@ -247,6 +264,9 @@ position: relative;
 	width: 100%;
 	height: 50%;
 }
+.main-top{
+	background-color: #0c7fcf;
+}
 a.metro-md :hover{
 	background-color: rgba(0, 0, 0, 0.7);
 	-webkit-transition: background-color .4s ease;
@@ -264,7 +284,7 @@ a.metro-ch:hover{
     transition: background-color .4s ease;
 }
 .pie{
-	background-color: #FFC600;
+	background-color: rgb(255, 221, 0);
 	margin-top: 25px;
 	width: 100%;
 	height: 100px;
@@ -280,7 +300,7 @@ a.metro-ch:hover{
 }
 .tituloazul{
 	color: #07294d;
-	background-color: #FFC600;
+	background-color: rgb(255, 221, 0);
 }
 .textopie{
 	text-align: center;
@@ -300,8 +320,8 @@ a.metro-ch:hover{
 	width: 700px;
 	height: 310px;
 	display: inline-block;
-	margin-left:-25%;
-	margin-top: 35%; 
+	margin-left:-15%;
+	margin-top: 490px; 
 	position: absolute;
 	text-align: center;
 	z-index: 1;
@@ -310,7 +330,7 @@ a.metro-ch:hover{
 /****************************Buscador diseño plano ******************************/
 .todo-search {
   position: relative;
-  background: #07294d;
+  background: #0c7fcf;
   background-size: 16px 16px;
   border-radius: 6px 6px 0 0;
   color: #34495e;
