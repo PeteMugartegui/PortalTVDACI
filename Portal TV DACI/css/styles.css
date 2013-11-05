@@ -40,6 +40,11 @@ li>a:hover{
 	transition:color .5s ease;
 }
 /************** Identificadores***********************/
+#aplica{
+	background-image: url(../icons/Aplica.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
 #barra{
 	color: #FFF;
 	display: inline-block;
@@ -56,6 +61,23 @@ li>a:hover{
 	color: #FFF;
 	display: inline-block;
 
+}
+#cont-blue{
+	background-color: rgba(12,126,207,0.8);
+	max-width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 20px;
+	height: 50%;
+
+
+}
+#titulo-blue{
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	text-transform: uppercase;
 }
 #cajatexto{
 	background-color: #0c7fcf; 
@@ -175,12 +197,15 @@ vertical-align: middle;
 
 }
 .cuadros{
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
 	background-color: #0c7fcf;
-	width: 100%;
-	height: 300px;
+	width: 200px;
+	height: 200px;
 	max-width: 100%;
 	max-height: 100%;
 	margin-top: 25px;
+	position: relative;
 }
 .calendario{
 	display: inline-block;
@@ -196,6 +221,23 @@ vertical-align: middle;
 	display: inline-block;
 	text-align: center;
 	vertical-align: middle;
+}
+.descripcion{
+	margin-top: 20px;
+	display: inline-block;
+	text-align: center;
+}
+.fecha{
+	color: #7d7d7d;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-style: italic;	
+}
+.resumen-noticia{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400px;
+	text-align: left;
+	color: #7d7d7d;
 }
 .imgcenter{
 	vertical-align: middle;
@@ -223,12 +265,16 @@ vertical-align: middle;
 }
 .noti-even{
 	color: #000;
-	font-size: 2em;
 	font-family: 'Open Sans', sans-serif;
 	margin-top: 25px;
 	text-align: center;
 	width: 100%;
 	height: 600px;
+}
+.noticias-texto{
+	border-bottom-style: solid;
+	border-bottom-color:#fff;
+	border-bottom-width: 2px;
 }
 .metro-md{
 
@@ -290,6 +336,10 @@ a.metro-ch:hover{
 	height: 100px;
 
 }
+.pie-negro{
+	background-color: #333333;
+	height: 400px;
+}
 .titulo{
 	color: #FFF;
 	display: block;
@@ -298,6 +348,13 @@ a.metro-ch:hover{
 	text-align: center;
 	vertical-align: middle;
 }
+.titulo-negro{
+	color: #7d7d7d;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	text-transform: uppercase;
+}
 .tituloazul{
 	color: #07294d;
 	background-color: rgb(255, 221, 0);
@@ -305,6 +362,8 @@ a.metro-ch:hover{
 .textopie{
 	text-align: center;
 	vertical-align: middle;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
 }
 .titulo-metro{
 	color: #fff;
@@ -313,7 +372,14 @@ a.metro-ch:hover{
 }
 .parrafo{
 	color: #FFF;
-	font-family: 'Cabin Condensed', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-style: italic;
+}
+.parrafo-gris{
+	color: #7d7d7d;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
 }
 .panel{
 	background-color: rgba(0,0,0,0.5);
