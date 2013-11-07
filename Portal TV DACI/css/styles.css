@@ -19,8 +19,11 @@ li{
 }
 ul{
 	display: inline-block;
-	text-align: left;
+	text-align: center;
 	line-height: 35px;
+}
+li.active{
+	color: #FFC600;
 }
 a{
 	color: #fff;
@@ -97,6 +100,17 @@ li>a:hover{
 	max-height: 100%;
 	margin: 0 auto;
 }
+#daci{
+	color: #fff;
+	font-family:'Open Sans', sans-serif;
+	font-weight: 800;
+	font-size: 3em;
+	margin-top: 15px;
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-color: #0c7fcf;
+	text-align: center;
+}
 #divisor-cti {
 background: url(../img/divisorcti.png);
 background-repeat: no-repeat;
@@ -118,6 +132,14 @@ z-index: 3;
 	display: inline-block;
 	text-align: center;
 	margin-top: 20%;
+}
+#info-contacto{
+	margin-top: 25px;
+	margin-left:15%;
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-color: #0c7fcf;
+
 }
 #noticias{
 	max-height: 400px;
@@ -263,6 +285,10 @@ vertical-align: middle;
 	border-bottom-style: solid;
 	border-bottom-color: #FFF; 
 }
+.logos{
+	width: 50px;
+	height: 50px;
+}
 .noti-even{
 	color: #000;
 	font-family: 'Open Sans', sans-serif;
@@ -339,6 +365,11 @@ a.metro-ch:hover{
 .pie-negro{
 	background-color: #333333;
 	height: 400px;
+}
+.seccion-logos{
+	margin-top: 25px;
+	display: inline-block;
+	text-align: center;
 }
 .titulo{
 	color: #FFF;
