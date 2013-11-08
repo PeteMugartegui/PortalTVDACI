@@ -22,8 +22,11 @@ ul{
 	text-align: center;
 	line-height: 35px;
 }
-li.active{
+a.active{
 	color: #FFC600;
+	border-bottom-style: solid;
+	border-bottom-color: #FFC600;
+
 }
 a{
 	color: #fff;
@@ -101,11 +104,12 @@ li>a:hover{
 	margin: 0 auto;
 }
 #cuadro-acerca{
-	width: 400px;
-	height: 400px;
-	background-color: rgba(0,0,0,0.5);
+	width: 700px;
+	height: 800px;
+	background-color: rgba(0,0,0,0.7);
 	position: absolute;
 	margin-top: 50px;
+	margin-left: 50px;
 	z-index: 2;
 }
 #daci{
@@ -362,6 +366,13 @@ a.metro-ch:hover{
     -o-transition: background-color .4s ease;
     -ms-transition: background-color .4s ease;
     transition: background-color .4s ease;
+}
+.parrafo-acerca{
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	font-size: 1.4em;
+
 }
 .pie{
 	background-color: rgb(255, 221, 0);
