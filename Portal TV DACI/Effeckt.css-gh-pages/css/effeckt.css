@@ -398,7 +398,7 @@ Example markup:
     z-index: 0; }
   .effeckt-caption[data-effeckt-type="sqkwoosh"] img {
     position: relative;
-    z-index: 1;
+    z-index: 5;
     transition-delay: 0.25s; }
   .effeckt-caption[data-effeckt-type="sqkwoosh"] .effeckt-figcaption-wrap {
     position: absolute;
@@ -439,7 +439,7 @@ Example markup:
     left: 0;
     transform: translateX(-100%);
     opacity: 0;
-    z-index: 2; }
+    z-index: 9999; }
   .effeckt-caption[data-effeckt-type="quarter-two-step"] .effeckt-figcaption-wrap {
     transition: 500ms 250ms;
     transform: translateX(200%); }
