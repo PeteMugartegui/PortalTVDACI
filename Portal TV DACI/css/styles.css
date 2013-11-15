@@ -275,6 +275,7 @@ vertical-align: middle;
 	max-height: 100%;
 	margin-top: 25px;
 	position: relative;
+	overflow: hidden;
 }
 .calendario{
 	display: inline-block;
@@ -473,6 +474,11 @@ a.metro-ch:hover{
 }
 .parrafo-amarillo{
 	color: #FFC600;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;	
+}
+.parrafo-negro{
+	color: #000;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;	
 }
