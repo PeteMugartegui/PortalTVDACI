@@ -82,7 +82,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', end
 
 }
 #barra-blanca{
-	background-color: #fff;
+	background-color: #F5ECCE;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px; 
 	display: inline-block;
@@ -296,7 +296,13 @@ vertical-align: middle;
 	overflow: hidden;
 	z-index: 3;
 }
-
+#wrapper-serv{
+	width: 100%;
+	height: 390px;
+	position: relative;
+	overflow: hidden;
+	z-index: 3;
+}
 /*****************Clases****************************/
 .articulo-noticias{
 	width: 100%;
