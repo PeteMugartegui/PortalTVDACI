@@ -3,7 +3,6 @@
 <head>
 	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
 	<link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
-	<link href=​"http:​/​/​fonts.googleapis.com/​css?family=Ubuntu:​300,400,500,700" rel=​"stylesheet" type=​"text/​css">​
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,700,800' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
@@ -16,28 +15,34 @@
 	<script src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
 	<script type="text/javascript" src="js/effeckt.js"></script>
-	<script>
-        $(document).ready(function(){
-            $('.carousel').carousel({
-                interval: 3000
-            });
-        });
-    </script>
 	<!--Datepicker-->
 	<link rel="stylesheet" type="text/css" href="calendar/calendar.css">
 	<script type="text/javascript" src="calendar/calendar.js"></script>
 </head>
 <body>
-	<div class="row-fluid" id="primero">
+	<div class="container">
+		<div class="row-fluid">
+			<div class="pan12">
+					<div id="barra-blanca">
+						<div class="span6">
+							<div style="height: 32px; border-bottom-style:solid; border-bottom-width:1px; margin-top:10px;"><p style="font-weight:300; font-size:28px;  text-align:center;">Universidad Autonoma del Carmen<br></p></div>
+							<p style="font-weight:700; font-size:28px;  text-align:center; margin-top:10px;">DES DACI</p>
+						</div>
+						<div class="span6">
+							<p style="text-align:right;">Usted se ha autentificado como: Juan Perez (Salir)</p>
+						</div>
+					</div>
+				</div>
+		</div>
+		<div class="row-fluid" id="primero">
 				<div class="span12">
-		
 						<nav id="barra">
 							<ul>
 								<li class="lista"><a href="acercade.html">Acerca de</a></li>
 								<li class="lista"><a href="servicios.html">Servicios</a></li>
 								<li class="lista"><a href="perfil.html">Perfil</a></li>
-								<li class="lista"><a class="acy¡tive" href="#">Cursos</a></li>
-								<li class="lista"><a href="#">Campus</a></li>
+								<li class="lista"><a href="cursos.html" class="active">Cursos</a></li>
+								<li class="lista"><a href="campus.html">Campus</a></li>
 								<li class="lista"><a href="#">Ayuda</a></li>
 								<li class="lista">
 									<div id="buscador">
@@ -45,13 +50,11 @@
             						</div>
             					</li>
 							</ul>
-							<ul style="margin-left:100px;">
-								<li class="lista" style="text-align:right;"><a href="">Hola Jperez!</a></li>
-								<li class="lista" style="text-align:right;"><a href="">Cerrar Sesión</a></li>
-							</ul>
+							
 						</nav>
 				</div>
-	</div>
+		</div>
+		
 		<div class="row-fluid">
 			<div class="span12" id="wrapper-acerca" >
 				<div id="cuadro-servicios">
@@ -91,12 +94,11 @@
 			</div>
 		</div>
 		
-	<div class="container">
 		<div class="row-fluid" id="tercero">
 			<div class="span12">
 				<div class="span4 cuadros-cuad" id="cont-portal">
-					<figure class="mitad effeckt-caption linea-med" data-effeckt-type="cover-slide-top">
-	    				<div id="portal"><h2 class="titulo alin-altura"> Noticias </h2></div>
+					<figure class="mitad effeckt-caption linea-med" id="not" data-effeckt-type="cover-slide-top">
+	    				<div id="portal"><h2 class="titulo alin-altura" style="color:#fff;"> Noticias </h2></div>
 	    				<figcaption>
 	      					<div class="effeckt-figcaption-wrap">
 	        					<h3></h3>
@@ -105,8 +107,8 @@
 	      					</div>
 	    				</figcaption>
 	  				</figure>
-	  				<figure class="mitad effeckt-caption" data-effeckt-type="cover-slide-top">
-						<div class="mitad" id="agenda"><h2 class="titulo alin-altura"> Agenda Virtual </h2></div>
+	  				<figure class="mitad effeckt-caption" id="eve" data-effeckt-type="cover-slide-top">
+						<div class="mitad" id="agenda"><h2 class="titulo alin-altura" style="color:#fff;"> Agenda Virtual </h2></div>
 						<figcaption>
 	      					<div class="effeckt-figcaption-wrap">
 	        					<h3>Agenda</h3>
@@ -116,23 +118,17 @@
 	    				</figcaption>
 	    			</figure>
 				</div>
-				<figure class="effeckt-caption span4" data-effeckt-type="half-slide">
+				<div class="span4">
 				    <div class="cuadros-cuad" id="campus-virtual">
 						<h2 class="titulo"> Campus Virtual </h2>
-						<img class="imgcenter" id="monitor" src="img/virtual.png" /> 
+						<img class="imgcenter" id="monitor" src="img/croquis.png" style="margin-left:125px; width:150px; height:120px;" /> 
 					</div>
-				    <figcaption>
-				      <div class="effeckt-figcaption-wrap">
-				        <h3>Paseo interactivo</h3>
-				        <p>Descubre nuestro paseo Interactivo>> </p>
-				      </div>
-				    </figcaption>
-  				</figure>
+  				</div>
 				<div class="span4 cuadros-cuad" id="chat">
 						<div class="span4">
 							<h2 class="titulo"> Chat</h2>
 							<figure class="effeckt-caption centrar" data-effeckt-type="revolving-door-right">
-							    <img class="imgchat" style="height:auto; width:auto; margin: auto; max-width:100px; max-height:100px;" src="img/perfil.png" />
+							    <img class="imgchat" style="height:auto; width:auto; margin: auto; max-width:100px; max-height:100px;" src="img/usuario.png" />
 							    <figcaption>
 							      <div class="effeckt-figcaption-wrap">
 							        <h3>Jperez</h3>
@@ -149,9 +145,9 @@
 						</div>				
 				</div>
 			</div>
-	</div> <!--fin Container-->
+
 		<div class="row-fluid">
-				<div class="span12 main-top" style="position:relative; margin-top: 100px;">
+				<div class="span12 main-top" style="position:relative; margin-top: 25px;">
 						<section class="pages" id="divisor-cti" data-type="background" data-speed="10">
 							<div class=" black-opacity">
 								<div id="cont-blue">
@@ -209,12 +205,13 @@
 				<div class="span12 seccion-logos">
 					<div class="span4" style="margin-left:30%;">
 					<ul>
-						<li class="lista"><img class="logos" src="img/facebook-logo.png"></li>
+						<li class="lista"><img class="logos" src="img/facebook-logo.png" ></li>
 						<li class="lista"><img class="logos" src="img/twitter-logo.png"></li>
 					</ul>
 					</div>
 				</div>
 		</footer>
 	</div>
+</div>
 </body>
 </html>
