@@ -3,7 +3,6 @@
 <head>
 	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
 	<link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
-	<link href=​"http:​/​/​fonts.googleapis.com/​css?family=Ubuntu:​300,400,500,700" rel=​"stylesheet" type=​"text/​css">​
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,700,800' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
@@ -16,27 +15,33 @@
 	<script src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
 	<script type="text/javascript" src="js/effeckt.js"></script>
-	<script>
-        $(document).ready(function(){
-            $('.carousel').carousel({
-                interval: 3000
-            });
-        });
-    </script>
 	<!--Datepicker-->
 	<link rel="stylesheet" type="text/css" href="calendar/calendar.css">
 	<script type="text/javascript" src="calendar/calendar.js"></script>
 </head>
 <body>
-	<div class="row-fluid" id="primero">
+	<div class="container">
+		<div class="row-fluid">
+			<div class="pan12">
+					<div id="barra-blanca">
+						<div class="span6">
+							<div style="height: 32px; border-bottom-style:solid; border-bottom-width:1px; margin-top:10px;"><p style="font-weight:300; font-size:28px;  text-align:center;">Universidad Autonoma del Carmen<br></p></div>
+							<p style="font-weight:700; font-size:28px;  text-align:center; margin-top:10px;">DES DACI</p>
+						</div>
+						<div class="span6">
+							<p style="text-align:right;">Usted se ha autentificado como: Juan Perez (Salir)</p>
+						</div>
+					</div>
+				</div>
+		</div>
+		<div class="row-fluid" id="primero">
 				<div class="span12">
-		
 						<nav id="barra">
 							<ul>
-								<li class="lista"><a class="active" href="#">Acerca de</a></li>
-								<li class="lista"><a href="#">Servicios</a></li>
-								<li class="lista"><a href="#">Perfil</a></li>
-								<li class="lista"><a href="#">Cursos</a></li>
+								<li class="lista"><a href="acercade.html">Acerca de</a></li>
+								<li class="lista"><a href="servicios.html">Servicios</a></li>
+								<li class="lista"><a href="perfil.html">Perfil</a></li>
+								<li class="lista"><a href="cursos.html">Cursos</a></li>
 								<li class="lista"><a href="#">Campus</a></li>
 								<li class="lista"><a href="#">Ayuda</a></li>
 								<li class="lista">
@@ -45,13 +50,10 @@
             						</div>
             					</li>
 							</ul>
-							<ul style="margin-left:100px;">
-								<li class="lista" style="text-align:right;"><a href="">Registrarse</a></li>
-								<li class="lista" style="text-align:right;"><a href="">Iniciar Sesión</a></li>
-							</ul>
+							
 						</nav>
 				</div>
-	</div>
+		</div>
 		<div class="row-fluid">
 			<div class="span12" id="wrapper-acerca" >
 				<div id="cuadro-acerca">
@@ -62,41 +64,66 @@
 			</div>
 		</div>
 		
-	<div class="container">
-		<div class="row-fluid" id="tercero" style="margin-top: 100px;">
+		<div class="row-fluid" id="tercero">
 			<div class="span12">
-				<div class="span4">
-					<div class="cuadros" id="aplica"><img src="icons/aplicaa.png" style="margin-left: 50px; margin-top: 50px;"> </div>
-					<div class="descripcion">
-						<h4 class="titulo-negro">Aplica</h4>
-						<p class="parrafo-gris">¿Interesado en formar parte?</p>
-					</div>
+				<div class="span4 cuadros-cuad" id="cont-portal">
+					<figure class="mitad effeckt-caption linea-med" id="not" data-effeckt-type="cover-slide-top">
+	    				<div id="portal"><h2 class="titulo alin-altura" style="color:#fff;"> Noticias </h2></div>
+	    				<figcaption>
+	      					<div class="effeckt-figcaption-wrap">
+	        					<h3></h3>
+	       				 		<p>Entra y lee las ùltimas noticias</p>
+	       				 		<p><a href="#"><strong>Entra ahora>> </strong> </a></p>
+	      					</div>
+	    				</figcaption>
+	  				</figure>
+	  				<figure class="mitad effeckt-caption" id="eve" data-effeckt-type="cover-slide-top">
+						<div class="mitad" id="agenda"><h2 class="titulo alin-altura" style="color:#fff;"> Agenda Virtual </h2></div>
+						<figcaption>
+	      					<div class="effeckt-figcaption-wrap">
+	        					<h3>Agenda</h3>
+	       				 		<p>Checa la agenda de actividades próximas.</p>
+	       				 		<p><a href="#"><strong>Entra ahora>> </strong></a></p>
+	      					</div>
+	    				</figcaption>
+	    			</figure>
 				</div>
-				
-				    <div class="span4" >
-				    	<div class="cuadros" id="conoce">
-				    		<img src="icons/Aplica.png" style="margin-left: 50px; margin-top: 50px;"><br><br>
-				    	 </div>
-				    	 <div class="descripcion">
-							<h4 class="titulo-negro">Educación</h4>
-							<p class="parrafo-gris">Aprendizaje constante</p>
-						</div>
+				<figure class="effeckt-caption span4" data-effeckt-type="half-slide">
+				    <div class="cuadros-cuad" id="campus-virtual">
+						<h2 class="titulo"> Campus Virtual </h2>
+						<img class="imgcenter" id="monitor" src="img/virtual.png" /> 
 					</div>
-					<div class="span4">
-						<div class="cuadros"> 
-							<img src="icons/certificado.png" style="margin-left: 50px; margin-top: 50px;">
+				    <figcaption>
+				      <div class="effeckt-figcaption-wrap">
+				        <h3>Paseo interactivo</h3>
+				        <p>Descubre nuestro paseo Interactivo>> </p>
+				      </div>
+				    </figcaption>
+  				</figure>
+				<div class="span4 cuadros-cuad" id="chat">
+						<div class="span4">
+							<h2 class="titulo"> Chat</h2>
+							<figure class="effeckt-caption centrar" data-effeckt-type="revolving-door-right">
+							    <img class="imgchat" style="height:auto; width:auto; margin: auto; max-width:100px; max-height:100px;" src="img/usuario.png" />
+							    <figcaption>
+							      <div class="effeckt-figcaption-wrap">
+							        <h3>Jperez</h3>
+							        <p>Disponible</p>
+							      </div>
+							    </figcaption>
+  							</figure>
 						</div>
-						<div class="descripcion">
-							<h4 class="titulo-negro">Excelencia Academica</h4>
-							<p class="parrafo-gris">Contamos con los mejores profesores.</p>
-						</div>
-
-					</div> 
+						<div class="span4">
+							<h2 class="titulo izq-align" style="margin-top: 5px;">Conectados:</h2>
+							<p class="parrafo izq-align" >Jperez</p>
+							<p class="parrafo izq-align">Fgonzale</p>
+							<p class="parrafo izq-align">Ddominguez</p>
+						</div>				
 				</div>
 			</div>
-	</div> <!--fin Container-->
+
 		<div class="row-fluid">
-				<div class="span12 main-top" style="position:relative; margin-top: 100px;">
+				<div class="span12 main-top" style="position:relative; margin-top: 25px;">
 						<section class="pages" id="divisor-cti" data-type="background" data-speed="10">
 							<div class=" black-opacity">
 								<div id="cont-blue">
@@ -154,12 +181,13 @@
 				<div class="span12 seccion-logos">
 					<div class="span4" style="margin-left:30%;">
 					<ul>
-						<li class="lista"><img class="logos" src="img/facebook-logo.png"></li>
+						<li class="lista"><img class="logos" src="img/facebook-logo.png" ></li>
 						<li class="lista"><img class="logos" src="img/twitter-logo.png"></li>
 					</ul>
 					</div>
 				</div>
 		</footer>
 	</div>
+</div>
 </body>
 </html>
