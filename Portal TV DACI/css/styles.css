@@ -131,11 +131,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', end
 	margin: 0 auto;
 }
 #cuadro-acerca{
-	width: 700px;
+	width: 390px;
 	height: 100%;
 	background-color: rgba(0,0,0,0.7);
 	position: absolute;
-	margin-left: 50px;
+	margin-left:0;
 	z-index: 2;
 }
 #cuadro-perfil{
@@ -286,7 +286,11 @@ vertical-align: middle;
 }
 #wrapper-acerca{
 	width: 100%;
+<<<<<<< HEAD
 	height: 400px;
+=======
+	height: 390px;
+>>>>>>> e9c0a711a46b5600675c73ac4cf9e784914d54ca
 	position: relative;
 	background: url(../img/EdificioCTI.jpg);
 	background-repeat: no-repeat;
@@ -301,6 +305,13 @@ vertical-align: middle;
 	height: 390px;
 	position: relative;
 	overflow: hidden;
+	z-index: 3;
+}
+#wrapper-perfil{
+	width: 100%;
+	height: 390px;
+	position: relative;
+	overflow-y: scroll;
 	z-index: 3;
 }
 /*****************Clases****************************/
@@ -478,7 +489,7 @@ a.metro-ch:hover{
 	color: #fff;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
-	font-size: 1.4em;
+	font-size: 1em;
 
 }
 .pie{
