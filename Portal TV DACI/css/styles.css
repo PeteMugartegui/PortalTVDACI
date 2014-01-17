@@ -314,6 +314,14 @@ vertical-align: middle;
 	overflow-y: scroll;
 	z-index: 3;
 }
+#wrapper-cursos{
+	background: rgba(0,0,0,0.8);
+	border-radius: 10px;
+	width: 100%;
+	height: 390px;
+	position: relative;
+	z-index: 3;
+}
 /*****************Clases****************************/
 .articulo-noticias{
 	width: 100%;
@@ -373,6 +381,10 @@ vertical-align: middle;
 	display: inline-block;
 	text-align: center;
 	vertical-align: middle;
+}
+.checkhorizontal{
+	display: inline-block;
+	
 }
 .descripcion{
 	margin-top: 20px;
@@ -575,7 +587,102 @@ a.metro-ch:hover{
 	text-align: center;
 	z-index: 1;
 }
+/************************Tabla************************************/
+.Tabla {
+	margin:0px;padding:0px;
+	width:100%;
+	box-shadow: 10px 10px 5px #888888;
+	border:1px solid #ffffff;
+	
+	-moz-border-radius-bottomleft:0px;
+	-webkit-border-bottom-left-radius:0px;
+	border-bottom-left-radius:0px;
+	
+	-moz-border-radius-bottomright:0px;
+	-webkit-border-bottom-right-radius:0px;
+	border-bottom-right-radius:0px;
+	
+	-moz-border-radius-topright:0px;
+	-webkit-border-top-right-radius:0px;
+	border-top-right-radius:0px;
+	
+	-moz-border-radius-topleft:0px;
+	-webkit-border-top-left-radius:0px;
+	border-top-left-radius:0px;
+}.Tabla table{
+    border-collapse: collapse;
+        border-spacing: 0;
+	width:100%;
+	height:100%;
+	margin:0px;padding:0px;
+}.Tabla tr:last-child td:last-child {
+	-moz-border-radius-bottomright:0px;
+	-webkit-border-bottom-right-radius:0px;
+	border-bottom-right-radius:0px;
+}
+.Tabla table tr:first-child td:first-child {
+	-moz-border-radius-topleft:0px;
+	-webkit-border-top-left-radius:0px;
+	border-top-left-radius:0px;
+}
+.Tabla table tr:first-child td:last-child {
+	-moz-border-radius-topright:0px;
+	-webkit-border-top-right-radius:0px;
+	border-top-right-radius:0px;
+}.Tabla tr:last-child td:first-child{
+	-moz-border-radius-bottomleft:0px;
+	-webkit-border-bottom-left-radius:0px;
+	border-bottom-left-radius:0px;
+}.Tabla tr:hover td{
+	
+}
+.Tabla tr:nth-child(odd){ background-color:#aad4ff; }
+.Tabla tr:nth-child(even)    { background-color:#ffffff; }.Tabla td{
+	vertical-align:middle;
+	
+	
+	border:1px solid #ffffff;
+	border-width:0px 1px 1px 0px;
+	text-align:left;
+	padding:7px;
+	font-size:10px;
+	font-family:Arial;
+	font-weight:bold;
+	color:#000000;
+}.Tabla tr:last-child td{
+	border-width:0px 1px 0px 0px;
+}.Tabla tr td:last-child{
+	border-width:0px 0px 1px 0px;
+}.Tabla tr:last-child td:last-child{
+	border-width:0px 0px 0px 0px;
+}
+.Tabla tr:first-child td{
+		background:-o-linear-gradient(bottom, #ffffff 5%, #ffffff 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #ffffff) );
+	background:-moz-linear-gradient( center top, #ffffff 5%, #ffffff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#ffffff");	background: -o-linear-gradient(top,#ffffff,ffffff);
 
+	background-color:#ffffff;
+	border:0px solid #ffffff;
+	text-align:center;
+	border-width:0px 0px 1px 1px;
+	font-size:17px;
+	font-family:Arial;
+	font-weight:bold;
+	color:#000000;
+}
+.Tabla tr:first-child:hover td{
+	background:-o-linear-gradient(bottom, #ffffff 5%, #ffffff 100%);	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #ffffff) );
+	background:-moz-linear-gradient( center top, #ffffff 5%, #ffffff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#ffffff");	background: -o-linear-gradient(top,#ffffff,ffffff);
+
+	background-color:#ffffff;
+}
+.Tabla tr:first-child td:first-child{
+	border-width:0px 0px 1px 0px;
+}
+.Tabla tr:first-child td:last-child{
+	border-width:0px 0px 1px 1px;
+}
 
 /****************************Buscador diseño plano ******************************/
 .todo-search {
