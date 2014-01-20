@@ -590,9 +590,8 @@ a.metro-ch:hover{
 /************************Tabla************************************/
 .Tabla {
 	margin:0px;padding:0px;
-	width:100%;
-	box-shadow: 10px 10px 5px #888888;
-	border:1px solid #ffffff;
+	width:90%;
+	border:1px solid #FFC600;
 	
 	-moz-border-radius-bottomleft:0px;
 	-webkit-border-bottom-left-radius:0px;
@@ -636,8 +635,8 @@ a.metro-ch:hover{
 }.Tabla tr:hover td{
 	
 }
-.Tabla tr:nth-child(odd){ background-color:#aad4ff; }
-.Tabla tr:nth-child(even)    { background-color:#ffffff; }.Tabla td{
+.Tabla tr:nth-child(odd){ background-color:#2E9AFE; }
+.Tabla tr:nth-child(even)    { background-color:#333; }.Tabla td{
 	vertical-align:middle;
 	
 	
@@ -648,7 +647,7 @@ a.metro-ch:hover{
 	font-size:10px;
 	font-family:Arial;
 	font-weight:bold;
-	color:#000000;
+	color:#fff;
 }.Tabla tr:last-child td{
 	border-width:0px 1px 0px 0px;
 }.Tabla tr td:last-child{

@@ -52,8 +52,8 @@ if(document.addEventListener ){
    aLoader = [
     { load: "edge_includes/jquery-1.7.1.min.js"},
     { load: "edge_includes/edge.2.0.0.min.js"},
-          { load: "Animaci%C3%B3n%20CTI_edge.js"},
-          { load: "Animaci%C3%B3n%20CTI_edgeActions.js"}];
+          { load: "Animacioncti_edge.js"},
+          { load: "Animacioncti_edgeActions.js"}];
 
 if (AdobeEdge.bootstrapLoading) { signaledLoading = true; AdobeEdge.loadResources=doLoadResources; AdobeEdge.playWhenReady=playWhenReady; }
 

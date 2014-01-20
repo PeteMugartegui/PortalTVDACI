@@ -68,88 +68,23 @@
 						<h5 style="color:#FE9A2E;">Contenido</h5>
 					</div>
 					<ul>
-						<li style="color:#FE9A2E;">Identificación del Programa</li>
-						<li style="color:#2E9AFE;">Programa del Curso Sintetico</li>
-						<li style="color:#2E9AFE;">Fuentes de Información</li>
-						<li style="color:#2E9AFE;">Evaluación</li>
-						<li style="color:#2E9AFE;">Imprimir Programa</li>
-						<li style="color:#2E9AFE;">Descargar Programa</li>
+						<li style="color:#2E9AFE; border-right-style:solid; border-right-color: #FFC600;">Identificación del Programa</li>
+						<li style="color:#FE9A2E; border-right-style:solid; border-right-color: #FFC600;">Programa del Curso Sintetico</li>
+						<li style="color:#2E9AFE; border-right-style:solid; border-right-color: #FFC600;">Fuentes de Información</li>
+						<li style="color:#2E9AFE; border-right-style:solid; border-right-color: #FFC600;">Evaluación</li>
+						<li style="color:#2E9AFE; border-right-style:solid; border-right-color: #FFC600;">Imprimir Programa</li>
+						<li style="color:#2E9AFE; border-right-style:solid; border-right-color: #FFC600;">Descargar Programa</li>
 						<li></li>
 					</ul>
 				</div>
 				<div class="span8">
-						
-						
-						<!-- ********************Tabla***********************************-->
-						<div class="Tabla" style="margin-top:20px;" >
-			                <table >
-			                    <tr>
-			                        <td>
-			                            Contenido
-			                        </td>
-			                        <td >
-			                            Información
-			                        </td>
-			                    </tr>
-			                    <tr>
-			                        <td >
-			                           <p>Ubicación del Curso:</p>
-			                        </td>
-			                        <td>
-			                            <p>Materia Sello</p>
-			                        </td>
-			                    </tr>
-			                    <tr>
-			                        <td >
-			                            <p>Nombre del Curso:</p>
-			                        </td>
-			                        <td>
-			                            <p>Educación Artistica</p>
-			                        </td>
-			                    </tr>
-			                    <tr>
-			                    	<td>
-			                    		<p>Area:</p>
-			                    	</td>
-			                    	<td>
-			                    		<p>Sello</p>
-			                    	</td>
-			                    </tr>
-			                    <tr>
-			                        <td >
-			                           <p>Modalidad:</p> 
-			                        </td>
-			                        <td>
-			                            A distancia
-			                        </td>
-			                    </tr>
-			                    <tr>
-			                        <td >
-			                           <p>Tipo:</p>
-			                        </td>
-			                        <td>
-			                            Teorico/Practico
-			                        </td>
-			                    </tr>
-			                    <tr>
-			                        <td >
-			                           <p>Total de horas del Curso:</p>
-			                        </td>
-			                        <td>
-			                            32
-			                        </td>			                        
-			                    </tr>
-			                    <tr>
-			                        <td >
-			                           <p>Horas de estudio independiente:</p>
-			                        </td>
-			                        <td>
-			                            4
-			                        </td>
-			                    </tr>
-			                </table>
-           				 </div>
-           				 <!--********************************************** Fin Tabla********************************************-->
+						<ul>
+							<li>Objetivo General</li>
+							<li></li>
+							<li></li>
+							<li></li>
+							<li></li>
+						</ul>
 				</div>
 			</div>
 		</div>
