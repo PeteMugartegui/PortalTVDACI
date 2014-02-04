@@ -18,6 +18,10 @@
 	<!--Datepicker-->
 	<link rel="stylesheet" type="text/css" href="calendar/calendar.css">
 	<script type="text/javascript" src="calendar/calendar.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/elastislide.css" />
+	<link rel="stylesheet" type="text/css" href="css/custom.css" />
+	<script src="js/modernizr.custom.17475.js"></script>
+
 </head>
 <body>
 	<div class="container">
@@ -57,18 +61,21 @@
 			<div class="span12" id="wrapper-cursos" >
 				<div class="span2">
 					<h5 style="color:#E6E6E6;">Taller de Formación Integral de Educacion Artistica</h5>
-					<img src="img/window.jpg">
-					<p style="color:#F5DA81; font-size:12px;">Contenido del Taller y Evaluaciónn</p>
-					<img src="img/check.png">
-					<p style="color:#F5DA81; font-size:12px;">Experiencias de Aprendizaje</p>
+					<a href="">
+						<img src="img/window.jpg">
+						<p style="color:#F5DA81; font-size:12px;">Contenido del Taller y Evaluaciónn</p>
+					</a>
+					<a href="">
+						<img src="img/check.png">
+						<p style="color:#F5DA81; font-size:12px;">Experiencias de Aprendizaje</p>
+					</a>
 				</div>
 				<div class="span10">
-						<div style="text-align:center;">
-							<h2 style="color:#fff;">Experiencias de aprendizaje disponibles:</h2>
-							<img src="img/arte.jpg" style="height:100px; width:100px;">
-							<p style="color:#F5DA81;">Analisis artistico de un cuadro</p>
+						<div style="text-align:center; margin-top:20px;">
+							<img src="img/progra/poo.jpg" style="height:150px; width:150px;">
+							<a href=""><p class="parrafo-blanco">Analisis y solución de un problema</p></a>
 							<img src="img/perso.png">
-							<p style="color:#F5DA81;">indicaciones</p>
+							<a href=""><p class="parrafo-blanco">Indicaciones.</p></a>
 						</div>
 				</div>
 			</div>
@@ -193,5 +200,12 @@
 		</footer>
 	</div>
 </div>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script type="text/javascript" src="slide/js/jquerypp.custom.js"></script>
+		<script type="text/javascript" src="slide/js/jquery.elastislide.js"></script>
+		<script type="text/javascript">
+			
+			$( '#carousel' ).elastislide();
+
 </body>
 </html>

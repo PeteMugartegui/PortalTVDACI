@@ -276,6 +276,12 @@ vertical-align: middle;
 	margin-top: 95px;
 	z-index: 0;
 }
+#timeline-video{
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-left-color: #ffF;
+	height: 100%;
+}
 #virtual{
 	width: 100%;
 	height: 400px;
@@ -286,11 +292,8 @@ vertical-align: middle;
 }
 #wrapper-acerca{
 	width: 100%;
-<<<<<<< HEAD
 	height: 400px;
-=======
 	height: 390px;
->>>>>>> e9c0a711a46b5600675c73ac4cf9e784914d54ca
 	position: relative;
 	background: url(../img/EdificioCTI.jpg);
 	background-repeat: no-repeat;
@@ -422,6 +425,12 @@ vertical-align: middle;
 	text-decoration: none;
 	vertical-align: bottom;
 	margin-left: 15px;
+}
+.list-biblio{
+	text-decoration: none;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color:#FFC600; 
 }
 .linea-med{
 	border-bottom-style: solid;
@@ -701,6 +710,14 @@ a.metro-ch:hover{
   top: 50%;
   left: 92%;
   margin: -0.5em 0 0 -1em;
+}
+.relacionados{
+	margin-top: 15px;
+	border-bottom-style: solid;
+	border-bottom-width:1px;
+	border-bottom-color:#fff;
+	height: 100px;
+	width: 100%;  
 }
 input.todo-search-field {
   background: none;
